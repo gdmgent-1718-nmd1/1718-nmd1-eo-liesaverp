@@ -17,3 +17,148 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+.tilt {
+    max-height: 200px;
+    transform: rotate(90deg);
+}
+
+/*knoppen*/
+
+.button-no {
+    background-color: #fac8fd;
+    color: #fcfefb;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 16px;
+}
+
+.button-yes {
+    background-color: #5faecf;
+    color: #fcfefb;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 16px;
+}
+
+/*tekstvakken*/
+
+.frame-text {
+    border-radius: 16px;
+    background-color:  #fcfefb;
+    opacity: 0.9;
+    color: #241a1e;
+    padding: 16px;
+    width:75%;
+    z-index: 0;
+    text-align: center;
+    margin: auto;
+}
+
+/*teksttypes*/
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    color: #241a1e;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Baskerville', serif;
+    font-size: 46px;
+    text-transform: uppercase;
+    color: #241a1e;
+    text-align: center;
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: 'Baskerville', serif;
+    font-size: 26px;
+    color: #241a1e;
+    text-align: center;
+    font-weight: lighter;
+}
+
+b {
+    font-weight: bold;
+    font-family: 'PT sans' sans-serif;
+    color: #241a1e;
+}
+
+a {
+    text-decoration: underline;
+    color: #5faecf;
+    font-style: italic;
+    font-family: 'PT sans' sans-serif;
+}
+
+/*social media icons*/
+
+.icon {
+    opacity: 0.50;
+    width: 50px;
+}
+
+/*Twee types achtergronden*/
+
+.bg-1 {
+    background-color: #e0f5fd;
+    opacity: 1;
+    width: 100%;
+    padding-top: 100px;
+    Padding-bottom: 100px;
+    margin: 0px;
+}
+
+.bg-2 {
+    background-color: #fbe7ff;
+    opacity: 1;
+    width: 100%;
+    padding-top: 100px;
+    Padding-bottom: 100px;
+}
+
+/* kleurvlakken*/
+
+.darkbrown {
+    width: 10%;
+    margin-left: 20px;
+    margin-right: 0px;
+    background-color: #241a1e;
+    color: #fcfefb;
+}
+
+.blue {
+    width: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #5faecf;
+    color: #fcfefb;
+}
+
+.white {
+    width: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #fcfefb;
+    color: #241a1e;
+}
+
+.pink {
+    width: 10%;
+    margin-left: 0px;
+    margin-right: 20px;
+    background-color: #fac8fd
+    color: #fcfefb;
+}
+
+.footer {
+    background-image: url('../images/footerimg.jpg');
+    height: 515px;
+    filter: blur(6);
+    width: 100%;
+}
