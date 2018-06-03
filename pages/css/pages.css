@@ -24,7 +24,7 @@ img {
 !! opmerking: padding body veranderd naar 0px;*/
 
 img {
-    text-align: center;
+    margin: auto;
 }
 
 .tilt {
