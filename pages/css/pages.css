@@ -11,7 +11,7 @@ body {
     line-height: 1.5em;
     padding: 0px;
     
-    /*edited padding to 0px to remove obnoxious white bars;*/
+    /*edited padding to 0px to remove white bars;*/
 }
 
 img {
@@ -39,7 +39,7 @@ img {
     color: #fcfefb;
     font-family: 'PT Sans', sans-serif;
     text-transform: uppercase;
-    padding: 5px;
+    padding: 10px;
     border-radius: 16px;
 }
 
@@ -48,7 +48,7 @@ img {
     color: #fcfefb;
     font-family: 'PT Sans', sans-serif;
     text-transform: uppercase;
-    padding: 5px;
+    padding: 10px;
     border-radius: 16px;
 }
 
@@ -136,38 +136,40 @@ a {
 
 .darkbrown {
     width: 20%;
-    margin-right: 0px;
+    margin-left: 50px;
     background-color: #241a1e;
     color: #fcfefb;
     padding: 10px;
+    float:left;
 }
 
 .blue {
     width: 20%;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0px;
     background-color: #5faecf;
     color: #fcfefb;
     padding: 10px;
+    float:left;
 }
 
 .white {
     width: 20%;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0px;
     background-color: #fcfefb;
     color: #241a1e;
     padding: 10px;
     border: 1px solid black;
+    float:left;
+    clear: right;
 }
 
 .pink {
     width: 20%;
-    margin-left: 0px;
-    margin-right: 20px;
+    margin: 0px;
     background-color: #fac8fd;
     color: #fcfefb;
     padding: 10px;
+    float:left;
     
 }
 
@@ -189,4 +191,16 @@ footer {
 
 .info {
     margin-left: 30px;
+}
+
+.list {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    color: #241a1e;
+    text-align: left;
+    margin-left:350px;
+}
+
+.clear {
+    clear:left;
 }
