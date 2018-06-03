@@ -9,14 +9,19 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: #333;
     line-height: 1.5em;
-    padding: 25px;
+    padding: 0px;
+    
+    /*edited padding to 0px to remove obnoxious white bars;*/
 }
 
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
-/* Voeg jouw css hieraan toe */
+/* Voeg jouw css hieraan toe 
+
+
+!! opmerking: padding body veranderd naar 0px;*/
 
 .tilt {
     max-height: 200px;
@@ -152,13 +157,21 @@ a {
     width: 10%;
     margin-left: 0px;
     margin-right: 20px;
-    background-color: #fac8fd
+    background-color: #fac8fd;
     color: #fcfefb;
 }
 
-.footer {
+footer {
     background-image: url('../images/footerimg.jpg');
-    height: 515px;
+    height: 200px;
     filter: blur(6);
     width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+.base p {
+    font-size: 24px;
+    font-family: font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
